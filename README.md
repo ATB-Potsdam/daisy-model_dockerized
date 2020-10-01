@@ -1,5 +1,11 @@
 # daisy-model_dockerized
 
+Dockerized version of the University of Copenhagen plant growing model Daisy.
+Project homepage: https://daisy.ku.dk/
+Github Project: https://github.com/perabrahamsen/daisy-model
+
+
+
 To run daisy with docker successfully you have to mount your data directories inside the container. To achieve this, add ```-v local/path:container/path``` to the docker run command.
 
 
